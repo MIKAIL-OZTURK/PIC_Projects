@@ -15,7 +15,7 @@ void main(void)
 {
     TRISB = 0x00;               // PORT B is output
     TRISD = 0xFF;               // PORT D is input
-    PORTB = 0x00;               // PORT B clear
+    PORTB = 0x00;               // PORT B reset
     
     while(1)
     {
