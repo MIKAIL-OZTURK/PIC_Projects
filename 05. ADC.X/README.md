@@ -1,0 +1,12 @@
+#   ADC
+ADc değerini okuma uygulamasıdır
+
+## Kullanılan Mikrodenetleyici
+- PIC16F877A
+
+## Kullanılan Program ve Derleyici
+- MPLAB X IDE
+- XC8
+
+## Program Çıktısı
+
