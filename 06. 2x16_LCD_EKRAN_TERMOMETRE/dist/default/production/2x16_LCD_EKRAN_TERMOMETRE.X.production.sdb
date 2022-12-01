@@ -1,0 +1,210 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F887 ]
+[d frameptr 0 ]
+"38 C:\Users\IIIIIIIIIIIIIIIIIIII\MPLABXProjects\2x16_LCD_EKRAN_TERMOMETRE.X/LCD.h
+[v _LCD_Write_Nibble LCD_Write_Nibble `(v  1 e 1 0 ]
+"55
+[v _LCD_Cmd LCD_Cmd `(v  1 e 1 0 ]
+"64
+[v _LCD_Goto LCD_Goto `(v  1 e 1 0 ]
+"90
+[v _LCD_Print LCD_Print `(v  1 e 1 0 ]
+"101
+[v _LCD_Begin LCD_Begin `(v  1 e 1 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c90\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c90\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c90\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"45 C:\Users\IIIIIIIIIIIIIIIIIIII\MPLABXProjects\2x16_LCD_EKRAN_TERMOMETRE.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"103
+[v _DS18B20_Start DS18B20_Start `(uc  1 e 1 0 ]
+"121
+[v _DS18B20_Write_Bit DS18B20_Write_Bit `(v  1 e 1 0 ]
+"135
+[v _DS18B20_Write_Byte DS18B20_Write_Byte `(v  1 e 1 0 ]
+"144
+[v _DS18B20_Read_Bit DS18B20_Read_Bit `(uc  1 e 1 0 ]
+"162
+[v _DS18B20_Read_Byte DS18B20_Read_Byte `(uc  1 e 1 0 ]
+"174
+[v _DS18B20_Read DS18B20_Read `(ui  1 e 2 0 ]
+"29 C:\Users\IIIIIIIIIIIIIIIIIIII\MPLABXProjects\2x16_LCD_EKRAN_TERMOMETRE.X/LCD.h
+[v _RS RS `b  1 e 0 0 ]
+"1863 C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h
+[v _OSCCON OSCCON `VEuc  1 e 1 @143 ]
+"3450
+[v _ANSELH ANSELH `VEuc  1 e 1 @393 ]
+"4111
+[v _RB1 RB1 `VEb  1 e 0 @49 ]
+"4192
+[v _RD2 RD2 `VEb  1 e 0 @66 ]
+"4195
+[v _RD3 RD3 `VEb  1 e 0 @67 ]
+"4198
+[v _RD4 RD4 `VEb  1 e 0 @68 ]
+"4201
+[v _RD5 RD5 `VEb  1 e 0 @69 ]
+"4204
+[v _RD6 RD6 `VEb  1 e 0 @70 ]
+"4207
+[v _RD7 RD7 `VEb  1 e 0 @71 ]
+"4432
+[v _TRISB1 TRISB1 `VEb  1 e 0 @1073 ]
+"4483
+[v _TRISD2 TRISD2 `VEb  1 e 0 @1090 ]
+"4486
+[v _TRISD3 TRISD3 `VEb  1 e 0 @1091 ]
+"4489
+[v _TRISD4 TRISD4 `VEb  1 e 0 @1092 ]
+"4492
+[v _TRISD5 TRISD5 `VEb  1 e 0 @1093 ]
+"4495
+[v _TRISD6 TRISD6 `VEb  1 e 0 @1094 ]
+"4498
+[v _TRISD7 TRISD7 `VEb  1 e 0 @1095 ]
+"42 C:\Users\IIIIIIIIIIIIIIIIIIII\MPLABXProjects\2x16_LCD_EKRAN_TERMOMETRE.X\main.c
+[v _raw_temp raw_temp `ui  1 e 2 0 ]
+"43
+[v _temp temp `[11]uc  1 e 11 0 ]
+"45
+[v _main main `(v  1 e 1 0 ]
+{
+"100
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c90\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c90\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwmod@counter counter `uc  1 a 1 5 ]
+"5
+[v ___lwmod@divisor divisor `ui  1 p 2 0 ]
+[v ___lwmod@dividend dividend `ui  1 p 2 2 ]
+"25
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c90\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwdiv@quotient quotient `ui  1 a 2 11 ]
+"11
+[v ___lwdiv@counter counter `uc  1 a 1 13 ]
+"5
+[v ___lwdiv@divisor divisor `ui  1 p 2 6 ]
+[v ___lwdiv@dividend dividend `ui  1 p 2 8 ]
+"30
+} 0
+"90 C:\Users\IIIIIIIIIIIIIIIIIIII\MPLABXProjects\2x16_LCD_EKRAN_TERMOMETRE.X/LCD.h
+[v _LCD_Print LCD_Print `(v  1 e 1 0 ]
+{
+"92
+[v LCD_Print@i i `uc  1 a 1 5 ]
+"90
+[v LCD_Print@LCD_Str LCD_Str `*.26uc  1 p 2 2 ]
+"99
+} 0
+"64
+[v _LCD_Goto LCD_Goto `(v  1 e 1 0 ]
+{
+[v LCD_Goto@col col `uc  1 a 1 wreg ]
+[v LCD_Goto@col col `uc  1 a 1 wreg ]
+[v LCD_Goto@row row `uc  1 p 1 5 ]
+[v LCD_Goto@col col `uc  1 a 1 8 ]
+"81
+} 0
+"101
+[v _LCD_Begin LCD_Begin `(v  1 e 1 0 ]
+{
+"135
+} 0
+"55
+[v _LCD_Cmd LCD_Cmd `(v  1 e 1 0 ]
+{
+[v LCD_Cmd@Command Command `uc  1 a 1 wreg ]
+[v LCD_Cmd@Command Command `uc  1 a 1 wreg ]
+"57
+[v LCD_Cmd@Command Command `uc  1 a 1 4 ]
+"62
+} 0
+"38
+[v _LCD_Write_Nibble LCD_Write_Nibble `(v  1 e 1 0 ]
+{
+[v LCD_Write_Nibble@n n `uc  1 a 1 wreg ]
+[v LCD_Write_Nibble@n n `uc  1 a 1 wreg ]
+"40
+[v LCD_Write_Nibble@n n `uc  1 a 1 1 ]
+"53
+} 0
+"174 C:\Users\IIIIIIIIIIIIIIIIIIII\MPLABXProjects\2x16_LCD_EKRAN_TERMOMETRE.X\main.c
+[v _DS18B20_Read DS18B20_Read `(ui  1 e 2 0 ]
+{
+[v DS18B20_Read@raw_temp_value raw_temp_value `*.4ui  1 a 1 wreg ]
+[v DS18B20_Read@raw_temp_value raw_temp_value `*.4ui  1 a 1 wreg ]
+"176
+[v DS18B20_Read@raw_temp_value raw_temp_value `*.4ui  1 a 1 9 ]
+"198
+} 0
+"135
+[v _DS18B20_Write_Byte DS18B20_Write_Byte `(v  1 e 1 0 ]
+{
+[v DS18B20_Write_Byte@value value `uc  1 a 1 wreg ]
+"137
+[v DS18B20_Write_Byte@i i `uc  1 a 1 4 ]
+"135
+[v DS18B20_Write_Byte@value value `uc  1 a 1 wreg ]
+"137
+[v DS18B20_Write_Byte@value value `uc  1 a 1 3 ]
+"141
+} 0
+"121
+[v _DS18B20_Write_Bit DS18B20_Write_Bit `(v  1 e 1 0 ]
+{
+[v DS18B20_Write_Bit@value value `uc  1 a 1 wreg ]
+[v DS18B20_Write_Bit@value value `uc  1 a 1 wreg ]
+"123
+[v DS18B20_Write_Bit@value value `uc  1 a 1 1 ]
+"132
+} 0
+"103
+[v _DS18B20_Start DS18B20_Start `(uc  1 e 1 0 ]
+{
+"118
+} 0
+"162
+[v _DS18B20_Read_Byte DS18B20_Read_Byte `(uc  1 e 1 0 ]
+{
+"166
+[v DS18B20_Read_Byte@i i `uc  1 a 1 4 ]
+"164
+[v DS18B20_Read_Byte@value value `uc  1 a 1 3 ]
+"171
+} 0
+"144
+[v _DS18B20_Read_Bit DS18B20_Read_Bit `(uc  1 e 1 0 ]
+{
+"146
+[v DS18B20_Read_Bit@value value `b  1 s 0 value ]
+"159
+} 0
