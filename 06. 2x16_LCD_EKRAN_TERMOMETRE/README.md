@@ -1,5 +1,5 @@
 #   2x16 LCD  Ekran Termometre
-DS18B20 sıcaklık sensöründen okunan analog veriyi 2x16 LCD ekranda gösteren uygulamadır.  
+DS18B20 sıcaklık sensöründen okunan veriyi 2x16 LCD ekranda gösteren uygulamadır.  
 
 ## Kullanılan Donanımlar
 - PIC16F887
